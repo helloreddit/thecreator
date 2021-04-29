@@ -1,5 +1,6 @@
 echo "Tides' reddit account creator installer."
 cd ~/
+rm -r thecreator
 echo "installing prerequisites"
 sudo apt-get update -y && sudo apt-get update -y && sudo apt-get install -y libgbm-dev -y
 sudo snap install node --classic --channel=14
